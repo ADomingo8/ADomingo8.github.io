@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/portfolio.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <title>Portfolio</title>
+      </head>
+<body class="PortBody">
+    <h1 id="header1">portfolio</h1>
+    <a href="clientProject.html" class="menu-item">-home</a>
+
+    <div class="container3">
+        <div class="heading">
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="box">
+          <div id="slick-carousel">
+            <div><img src="Jessie.images/WBird72-min.JPG" alt="White Bird"></div>
+            <div><img src="Jessie.images/BBirdlooking72-min.JPG" alt="Black Bird"></div>
+            <div><img src="Jessie.images/notheadshot72-min.JPG" alt="someone headshot"></div>
+            <div><img src="Jessie.images/church72-min.JPG" alt="church"></div>
+            <div><img src="Jessie.images/rancho272(1)-min.JPG" alt="el rancho"></div>
+            <div><img src="Jessie.images/rancho372-min.JPG" alt="el rancho 2"></div>
+          </div>
+        </div>
+      </div>
+      <script>
+        $(document).ready(function(){
+          $('#slick-carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          });
+        });
+      </script>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

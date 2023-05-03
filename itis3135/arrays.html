@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css">
+    <script src="scripts/arrays.js"></script>
+    <title>Array</title>
+</head>
+
+<body>
+    <h1>ITIS 3135 | Adrian Dominguez's Aggressive Dodo</h1>
+    <label for="EmpName">Employees</label>
+    <select name="employee-names" id="employee-names">
+        <option value="Emp1">Scrooge McDuck</option>
+        <option value="Emp2">Tony Stark</option>
+        <option value="Emp3">Henry Billiards</option>
+        <option value="Emp4">Elon must</option>
+    </select>
+       <br>
+       <br>
+       <br>
+        <button center id="displayResult" onclick="displayResults()">Avg and Highest</button>
+    <h2>
+        <p>Average Salary:</p>
+        <p id="results">
+        </p>
+        <p>Highest Salary:</p>
+        <p id="results1"> 
+        </p>
+
+
+    </h2>
+    <h2>Display the salaries with a table</h2>
+    <button id="displayResult" onclick="displaySalary()">Display Table</button>
+    <h2 id="container"></h2>
+
+    <h2>
+        Enter Employee's name 
+        <input type="text" id="EMPNAME">
+        <br>
+        <br>
+        Enter Employee's salary
+        <input type="number" id="EMPSALARY">
+        <br>
+        <input type="submit" onclick="addSalary()">
+        
+    </h2>
+
+    <div class="container">
+        <div id="data">
+         
+        </div>
+    </div>
+
+</body>
+<footer><a href="index.html">Home Page</a></footer>
+</html>
