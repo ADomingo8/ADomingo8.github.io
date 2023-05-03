@@ -1,0 +1,266 @@
+table {
+    width: 700px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 5px 5px 5px rgb(2, 49, 0);
+    
+}
+
+h1 {
+    text-align:center;
+    font-size: small;
+}
+
+h3 {
+    color:#ebebeb;
+    font-size:xx-large;
+    font-family:'Arvo', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    padding: 80px;
+    text-align:center;
+}
+
+h2 {
+    color:#e5e5e5;
+    font-family:'Arvo', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align:center;
+}
+
+th, caption {
+    background-color:#0c1a2f;
+    text-align: center;
+    color: azure;
+}
+
+table, th, td {
+    
+    font-family:'Arvo', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #3E567C;
+    color: azure;
+}
+
+tr:nth-child(odd) {
+    background-color: #E4E7E9;
+    color:#0c1a2f;
+}
+
+figcaption {
+    color:#0c1a2f;
+    font-style:oblique;
+}
+
+
+
+h1{
+    display:block;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+}
+
+
+/*if anything is wrong with the footer get rid of first three attributes*/
+
+footer{
+    position: absolute; 
+    width: 100%; 
+    margin-top: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px rgb(2, 49, 0);
+    border-radius: 10%;
+    border: 2px solid rgb(47, 71, 79);
+    background: radial-gradient(circle at 5.6% 54.5%, rgb(47, 71, 79) 0%, rgb(159, 188, 198) 83.6%);
+    color: rgb(250, 254, 250);
+
+}
+
+input[type=reset]{
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
+    color: #E4E7E9;
+    border:2px solid rgb(89, 24, 24);
+    box-shadow: 5px 5px 5px rgb(2, 49, 0);
+    border-radius: 10%;
+
+}
+
+input{
+    color:rgb(0, 0, 0);
+}
+
+
+
+img{
+    border-radius: 10%;
+}
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+figcaption{
+    text-align:center;
+}
+footer{
+    text-align:center;
+}
+
+
+
+.body2{
+    margin: 0;
+    opacity: 0.99;
+    max-height:100px;
+}
+
+.nav-open .nav {
+    transform:translatex(0);
+}
+
+.nav-open .main{
+    transform:translateX(350px);
+}
+
+.nav{
+    width:350px;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #4f5d75;
+    transform:translateX(-350px);
+    transition: transform 0.2s;
+    overflow-y: scroll;
+}
+
+.nav-text {
+    font-size: 22px;
+    font-family: 'assistant', sans-serif;
+    font-weight:500;
+}
+
+.main{
+    transition: transform 0.2s;
+
+}
+
+.nav-close{
+    background: none;
+    border:none;
+    display: flex;
+    align-items:center;
+    margin-left:auto;
+    padding:15px 25px;
+    color:#ddd;
+    cursor:pointer;
+
+}
+
+.nav-open{
+    background-color:rgb(90, 92, 106);
+    color:white;
+    border:none;
+    
+    
+}
+
+.nav-links-container{
+    box-shadow:0 -10px 10px rgba(0,0,0, 0.15);
+    text-align:center;
+    font-size:xx-large;
+    font-family:'assistant', sans-serif;
+
+}
+
+.nav-link{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-link:hover,
+.nav-close:hover{
+    background-color: #4f5d75;
+}
+
+a.nav-bar-link{
+   background-color: #41424c;
+}
+
+a {
+    
+    margin: 2%;
+    padding: 5px;
+    border-radius:4px;
+    background: #bfc0c0;
+    color: black;
+    text-decoration: none;
+}
+
+[data-component="slideshow"] .slide{
+    display:none;
+}
+
+[data-component="slideshow"] .slide.active{
+    display:block;
+}
+
+#SSimg{
+    height:55%;
+    width:55%;
+}
+
+#wireframeAndPages{
+    height:600px;
+    width:600px;
+}
+
+
+
+.wrapper {
+    padding-top:20px;
+    border: 1px solid white; 
+    background: #b4b6c2;
+    color:black;
+}
+
+#webphoto{
+    display: inline-block;
+    vertical-align: top; 
+    margin: 0 10px 10px 0;
+    height:400px;
+    width:600px;
+}
+
+#webReview{
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+
